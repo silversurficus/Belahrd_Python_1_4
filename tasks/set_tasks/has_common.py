@@ -7,9 +7,7 @@
 
 
 def has_common(set_1: set, set_2: set) -> bool:
-    # TODO вставить код сюда
-    result = None
-    return result
+    return bool(set_1.intersection(set_2))
 
 
 if __name__ == '__main__':

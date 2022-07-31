@@ -7,9 +7,7 @@
 
 
 def get_union(set_1: set, set_2: set) -> set:
-    # TODO вставить код сюда
-    result = None
-    return result
+    return set_1.union(set_2)
 
 
 if __name__ == '__main__':

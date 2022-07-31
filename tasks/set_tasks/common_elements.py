@@ -7,9 +7,7 @@
 
 
 def common_elements(list_1: list, list_2: list) -> set:
-    # TODO вставить код сюда
-    result = set(list_1 + list_2)
-    return result
+    return set(list_1).union(set(list_2))
 
 
 if __name__ == '__main__':
